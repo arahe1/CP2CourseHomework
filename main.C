@@ -12,7 +12,9 @@
 
 using namespace std;
 
-int main() {
+extern "C"{
+void functionname() {
 	fit(tempxs, tempys, tempsigmas, templasts, tempN);
 	return 0;
+	}
 }
